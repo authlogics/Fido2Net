@@ -1,6 +1,10 @@
-# Fido2Net
+# Authlogics.Fido2Net
 
-This is a set of .NET classes and bindings for wrapping the [libfido2](https://github.com/Yubico/libfido2) implementation.  You must first build the native dependencies via the provided script:  build_deps.ps1 / build_deps_macos.sh / build_deps_ubuntu.sh.  Other variants of Linux should examine the "apt-get" section of the script to determine what dependencies to install (libssl / libudev).
+Based on https://github.com/borrrden/Fido2Net. 
+
+This is a set of .NET classes and bindings for wrapping the [libfido2](https://github.com/Yubico/libfido2) implementation. Requires the dlls from https://developers.yubico.com/libfido2/Releases/
+
+You must first build the native dependencies via the provided script:  build_deps.ps1 
 
 ## Status
 
