@@ -96,6 +96,8 @@ namespace Cred
                 ext |= FidoExtensions.LargeBlobKey;
             }
 
+            Pin = "1514";
+
             using (var cred = new FidoCredential()) {
                 using (var dev = new FidoDevice()) {
                     dev.Open(Device);
