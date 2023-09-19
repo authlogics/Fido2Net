@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>Authlogics.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
